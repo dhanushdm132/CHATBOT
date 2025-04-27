@@ -59,7 +59,7 @@ Follow these steps to set up and run the application:
 7.  The application, using Gemini, should recognize your intent to leave and ask for feedback (a short review and a rating from 1 to 5).
 8.  Provide your feedback naturally (e.g., "It was very helpful, 5 stars" or "4/5, good responses").
 9.  The application will use function calling to extract the review and rating, save them to `feedback.txt`, print a final message, and exit.
-10. If the bonus logging is enabled in the script, the full conversation will also be appended to `chat_history.txt`.
+10. The full conversation will also be appended to `chat_history.txt`.
 
 ## Example Chat Session
 
