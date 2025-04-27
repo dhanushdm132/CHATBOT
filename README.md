@@ -28,10 +28,11 @@ Follow these steps to set up and run the application:
         ```dotenv
         GOOGLE_API_KEY = YOUR_API_KEY
         ```
+    *   Paste the copied API key from Google AI studio in place of **YOUR_API_KEY**.
     *   Save and close the `.env` file.
     *   **Security Note:** If you are using Git for version control, **add `.env` to your `.gitignore` file** immediately to prevent accidentally committing your secret API key to a public repository.
 
-5.  **Install Dependencies (`requirements.txt` file):**
+6.  **Install Dependencies (`requirements.txt` file):**
     *   Inside your project directory, create a new file named `requirements.txt`.
     *   Open `requirements.txt` and add the following lines:
         ```txt
